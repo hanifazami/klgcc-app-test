@@ -23,7 +23,7 @@ int appID = 575324907;
 // Heroku server url for example 'https://xxx.herokuapp.com'
 // String tokenServerUrl =
 //     "04AAAAAGNOR2UAEG1jOWRhM2NucmZyYzFieGkAoLDByj/iJaxL2wM7m8jog7+q4eRyrX1SEt1g+9VLRR7YEZ+neNQ3WKZgXk75HTWsMwgydPPsvTUVm/Fc9W0tF92TMpE6pSc0bsVV+QgLIoj+6MyPeTGLVyn+z05u5flyoM5szVs01C9Ltyu8rE3ZcdjiOQCu0jr7dn5uNkk0MKVvovSkexIiM7MQLmeRSoNZrWYE8ieZferMgrFGBkx5a1o=";
-String tokenServerUrl = "wss://webliveroom575324907-api.coolzcloud.com/ws";
+String tokenServerUrl = "";
 // test data
 String userID = math.Random().nextInt(10000).toString();
 String targetID = '';
