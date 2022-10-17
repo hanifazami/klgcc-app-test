@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>294427493136-2atl0mq568oivddirnceeqhj93vaul1l.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.294427493136-2atl0mq568oivddirnceeqhj93vaul1l</string>
+	<key>API_KEY</key>
+	<string>AIzaSyB2etfBLN6VUNaZIEICja9XLDg9TUuu4e0</string>
+	<key>GCM_SENDER_ID</key>
+	<string>294427493136</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.zegocloudTest2</string>
+	<key>PROJECT_ID</key>
+	<string>klgcc-13f7d</string>
+	<key>STORAGE_BUCKET</key>
+	<string>klgcc-13f7d.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:294427493136:ios:5eefaaf30df9037c081b95</string>
+</dict>
+</plist>
