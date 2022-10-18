@@ -10,9 +10,9 @@ import 'package:flutter/foundation.dart'
 /// ```dart
 /// import 'firebase_options.dart';
 /// // ...
-/// await Firebase.initializeApp(
-///   options: DefaultFirebaseOptions.currentPlatform,
-/// );
+// / await Firebase.initializeApp(
+// /   options: DefaultFirebaseOptions.currentPlatform,
+// / );
 /// ```
 class DefaultFirebaseOptions {
   static FirebaseOptions get currentPlatform {
@@ -66,7 +66,8 @@ class DefaultFirebaseOptions {
     messagingSenderId: '294427493136',
     projectId: 'klgcc-13f7d',
     storageBucket: 'klgcc-13f7d.appspot.com',
-    iosClientId: '294427493136-2atl0mq568oivddirnceeqhj93vaul1l.apps.googleusercontent.com',
+    iosClientId:
+        '294427493136-2atl0mq568oivddirnceeqhj93vaul1l.apps.googleusercontent.com',
     iosBundleId: 'com.example.zegocloudTest2',
   );
 
@@ -76,7 +77,8 @@ class DefaultFirebaseOptions {
     messagingSenderId: '294427493136',
     projectId: 'klgcc-13f7d',
     storageBucket: 'klgcc-13f7d.appspot.com',
-    iosClientId: '294427493136-2atl0mq568oivddirnceeqhj93vaul1l.apps.googleusercontent.com',
+    iosClientId:
+        '294427493136-2atl0mq568oivddirnceeqhj93vaul1l.apps.googleusercontent.com',
     iosBundleId: 'com.example.zegocloudTest2',
   );
 }

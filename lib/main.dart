@@ -1,6 +1,9 @@
 import 'dart:math' as math;
 import 'dart:developer';
 import 'dart:convert';
+import 'package:firebase_core/firebase_core.dart';
+
+import 'firebase_options.dart';
 import 'group_call_page.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/material.dart';
@@ -82,9 +85,16 @@ class _HomePageState extends State<HomePage> {
   @override
   void initState() {
     super.initState();
+    initFirebase();
     requestPermission();
     if (!expressReady) requestExpressToken();
     if (!firebaseReady) requestFCMToken();
+  }
+
+  Future<void> initFirebase() async {
+    await Firebase.initializeApp(
+      options: DefaultFirebaseOptions.currentPlatform,
+    );
   }
 
   @override
